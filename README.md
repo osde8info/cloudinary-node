@@ -9,17 +9,23 @@ Feel free to fork this project and use it as a quick way to get started playing 
 To run the script:
 
 1. Clone this repo.
-1. Open a terminal in the `cld-node-sdk-quick-start` folder.
-1. Set your Cloudinary API Environment variable:
+1. Open a terminal.
+1. Set your Cloudinary API Environment variable in your .env:
+
+   ```text
+   CLOUDINARY_URL=cloudinary://<api_key>:<api_secret>@<cloud_name>
    ```
-   export CLOUDINARY_URL=cloudinary://<api_key>:<api_secret>@<cloud_name>
-   ```
+
    You can find your API Environment variable in the Account Details section of your Cloudinary console.
+
 1. Install Cloudinary:
-   ```
+
+   ```bash
    npm install cloudinary
    ```
+
 1. Run the script:
-   ```
+
+   ```bash
    node index.js
    ```
